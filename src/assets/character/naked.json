@@ -1,0 +1,776 @@
+{
+	"textures": [
+		{
+			"image": "naked.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 511,
+				"h": 99
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "BODY_male-0.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 16,
+						"y": 14,
+						"w": 32,
+						"h": 48
+					},
+					"frame": {
+						"x": 0,
+						"y": 0,
+						"w": 32,
+						"h": 48
+					}
+				},
+				{
+					"filename": "BODY_male-1.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 16,
+						"y": 14,
+						"w": 32,
+						"h": 48
+					},
+					"frame": {
+						"x": 32,
+						"y": 0,
+						"w": 32,
+						"h": 48
+					}
+				},
+				{
+					"filename": "BODY_male-2.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 16,
+						"y": 14,
+						"w": 32,
+						"h": 49
+					},
+					"frame": {
+						"x": 64,
+						"y": 0,
+						"w": 32,
+						"h": 49
+					}
+				},
+				{
+					"filename": "BODY_male-3.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 16,
+						"y": 15,
+						"w": 31,
+						"h": 49
+					},
+					"frame": {
+						"x": 96,
+						"y": 0,
+						"w": 31,
+						"h": 49
+					}
+				},
+				{
+					"filename": "BODY_male-4.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 16,
+						"y": 14,
+						"w": 32,
+						"h": 49
+					},
+					"frame": {
+						"x": 127,
+						"y": 0,
+						"w": 32,
+						"h": 49
+					}
+				},
+				{
+					"filename": "BODY_male-5.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 16,
+						"y": 14,
+						"w": 32,
+						"h": 48
+					},
+					"frame": {
+						"x": 159,
+						"y": 0,
+						"w": 32,
+						"h": 48
+					}
+				},
+				{
+					"filename": "BODY_male-6.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 16,
+						"y": 14,
+						"w": 32,
+						"h": 49
+					},
+					"frame": {
+						"x": 191,
+						"y": 0,
+						"w": 32,
+						"h": 49
+					}
+				},
+				{
+					"filename": "BODY_male-7.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 17,
+						"y": 15,
+						"w": 31,
+						"h": 49
+					},
+					"frame": {
+						"x": 223,
+						"y": 0,
+						"w": 31,
+						"h": 49
+					}
+				},
+				{
+					"filename": "BODY_male-8.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 16,
+						"y": 14,
+						"w": 32,
+						"h": 49
+					},
+					"frame": {
+						"x": 254,
+						"y": 0,
+						"w": 32,
+						"h": 49
+					}
+				},
+				{
+					"filename": "BODY_male-9.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 22,
+						"y": 14,
+						"w": 22,
+						"h": 49
+					},
+					"frame": {
+						"x": 286,
+						"y": 0,
+						"w": 22,
+						"h": 49
+					}
+				},
+				{
+					"filename": "BODY_male-10.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 18,
+						"y": 15,
+						"w": 27,
+						"h": 48
+					},
+					"frame": {
+						"x": 308,
+						"y": 0,
+						"w": 27,
+						"h": 48
+					}
+				},
+				{
+					"filename": "BODY_male-11.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 20,
+						"y": 14,
+						"w": 24,
+						"h": 48
+					},
+					"frame": {
+						"x": 335,
+						"y": 0,
+						"w": 24,
+						"h": 48
+					}
+				},
+				{
+					"filename": "BODY_male-12.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 22,
+						"y": 14,
+						"w": 24,
+						"h": 48
+					},
+					"frame": {
+						"x": 359,
+						"y": 0,
+						"w": 24,
+						"h": 48
+					}
+				},
+				{
+					"filename": "BODY_male-13.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 21,
+						"y": 14,
+						"w": 26,
+						"h": 49
+					},
+					"frame": {
+						"x": 383,
+						"y": 0,
+						"w": 26,
+						"h": 49
+					}
+				},
+				{
+					"filename": "BODY_male-14.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 19,
+						"y": 15,
+						"w": 30,
+						"h": 48
+					},
+					"frame": {
+						"x": 409,
+						"y": 0,
+						"w": 30,
+						"h": 48
+					}
+				},
+				{
+					"filename": "BODY_male-15.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 22,
+						"y": 14,
+						"w": 25,
+						"h": 49
+					},
+					"frame": {
+						"x": 439,
+						"y": 0,
+						"w": 25,
+						"h": 49
+					}
+				},
+				{
+					"filename": "BODY_male-16.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 22,
+						"y": 14,
+						"w": 24,
+						"h": 49
+					},
+					"frame": {
+						"x": 464,
+						"y": 0,
+						"w": 24,
+						"h": 49
+					}
+				},
+				{
+					"filename": "BODY_male-17.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 22,
+						"y": 14,
+						"w": 23,
+						"h": 49
+					},
+					"frame": {
+						"x": 488,
+						"y": 0,
+						"w": 23,
+						"h": 49
+					}
+				},
+				{
+					"filename": "BODY_male-18.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 16,
+						"y": 14,
+						"w": 32,
+						"h": 49
+					},
+					"frame": {
+						"x": 0,
+						"y": 49,
+						"w": 32,
+						"h": 49
+					}
+				},
+				{
+					"filename": "BODY_male-19.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 16,
+						"y": 14,
+						"w": 32,
+						"h": 49
+					},
+					"frame": {
+						"x": 32,
+						"y": 49,
+						"w": 32,
+						"h": 49
+					}
+				},
+				{
+					"filename": "BODY_male-20.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 16,
+						"y": 14,
+						"w": 32,
+						"h": 50
+					},
+					"frame": {
+						"x": 64,
+						"y": 49,
+						"w": 32,
+						"h": 50
+					}
+				},
+				{
+					"filename": "BODY_male-21.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 17,
+						"y": 15,
+						"w": 31,
+						"h": 49
+					},
+					"frame": {
+						"x": 96,
+						"y": 49,
+						"w": 31,
+						"h": 49
+					}
+				},
+				{
+					"filename": "BODY_male-22.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 16,
+						"y": 14,
+						"w": 32,
+						"h": 50
+					},
+					"frame": {
+						"x": 127,
+						"y": 49,
+						"w": 32,
+						"h": 50
+					}
+				},
+				{
+					"filename": "BODY_male-23.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 16,
+						"y": 14,
+						"w": 32,
+						"h": 49
+					},
+					"frame": {
+						"x": 159,
+						"y": 49,
+						"w": 32,
+						"h": 49
+					}
+				},
+				{
+					"filename": "BODY_male-24.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 16,
+						"y": 14,
+						"w": 32,
+						"h": 50
+					},
+					"frame": {
+						"x": 191,
+						"y": 49,
+						"w": 32,
+						"h": 50
+					}
+				},
+				{
+					"filename": "BODY_male-25.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 16,
+						"y": 15,
+						"w": 31,
+						"h": 49
+					},
+					"frame": {
+						"x": 223,
+						"y": 49,
+						"w": 31,
+						"h": 49
+					}
+				},
+				{
+					"filename": "BODY_male-26.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 16,
+						"y": 14,
+						"w": 32,
+						"h": 50
+					},
+					"frame": {
+						"x": 254,
+						"y": 49,
+						"w": 32,
+						"h": 50
+					}
+				},
+				{
+					"filename": "BODY_male-27.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 20,
+						"y": 14,
+						"w": 22,
+						"h": 49
+					},
+					"frame": {
+						"x": 286,
+						"y": 49,
+						"w": 22,
+						"h": 49
+					}
+				},
+				{
+					"filename": "BODY_male-28.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 19,
+						"y": 15,
+						"w": 27,
+						"h": 48
+					},
+					"frame": {
+						"x": 308,
+						"y": 49,
+						"w": 27,
+						"h": 48
+					}
+				},
+				{
+					"filename": "BODY_male-29.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 20,
+						"y": 14,
+						"w": 24,
+						"h": 48
+					},
+					"frame": {
+						"x": 335,
+						"y": 49,
+						"w": 24,
+						"h": 48
+					}
+				},
+				{
+					"filename": "BODY_male-30.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 18,
+						"y": 14,
+						"w": 24,
+						"h": 48
+					},
+					"frame": {
+						"x": 359,
+						"y": 49,
+						"w": 24,
+						"h": 48
+					}
+				},
+				{
+					"filename": "BODY_male-31.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 17,
+						"y": 14,
+						"w": 26,
+						"h": 49
+					},
+					"frame": {
+						"x": 383,
+						"y": 49,
+						"w": 26,
+						"h": 49
+					}
+				},
+				{
+					"filename": "BODY_male-32.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 15,
+						"y": 15,
+						"w": 30,
+						"h": 48
+					},
+					"frame": {
+						"x": 409,
+						"y": 49,
+						"w": 30,
+						"h": 48
+					}
+				},
+				{
+					"filename": "BODY_male-33.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 17,
+						"y": 14,
+						"w": 25,
+						"h": 49
+					},
+					"frame": {
+						"x": 439,
+						"y": 49,
+						"w": 25,
+						"h": 49
+					}
+				},
+				{
+					"filename": "BODY_male-34.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 18,
+						"y": 14,
+						"w": 24,
+						"h": 49
+					},
+					"frame": {
+						"x": 464,
+						"y": 49,
+						"w": 24,
+						"h": 49
+					}
+				},
+				{
+					"filename": "BODY_male-35.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 19,
+						"y": 14,
+						"w": 23,
+						"h": 49
+					},
+					"frame": {
+						"x": 488,
+						"y": 49,
+						"w": 23,
+						"h": 49
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "3.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:8bcb33b5993e6869315787a7be159787:c7430d1b56f351f752f532edb7c501a6:b27bd9dfd23001529b5e8db1f55a4253$"
+	}
+}

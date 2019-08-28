@@ -1,0 +1,45 @@
+{
+	"textures": [
+		{
+			"image": "naked.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 546,
+				"h": 243
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "BODY_male.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 576,
+						"h": 256
+					},
+					"spriteSourceSize": {
+						"x": 16,
+						"y": 14,
+						"w": 544,
+						"h": 241
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 544,
+						"h": 241
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "3.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:e2f8f5ce7fb85595de5d1825c877b6d5:38e4bca7ea1fbf807b2f547324b10ea4:b27bd9dfd23001529b5e8db1f55a4253$"
+	}
+}
