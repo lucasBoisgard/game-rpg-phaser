@@ -1,0 +1,398 @@
+{
+    "frames": {
+        "sword_back1": {
+            "frame": {
+                "x": 0, "y": 0, "w": 192, "h": 192
+            }
+            ,
+            "rotated":false,
+            "trimmed":false,
+            "spriteSourceSize": {
+                "x": 0, "y": 0, "w": 192, "h": 192
+            }
+            ,
+            "sourceSize": {
+                "w": 192, "h": 192
+            }
+        }
+        ,
+        "sword_back2": {
+            "frame": {
+                "x": 192, "y": 0, "w": 192, "h": 192
+            }
+            ,
+            "rotated":false,
+            "trimmed":false,
+            "spriteSourceSize": {
+                "x": 0, "y": 0, "w": 192, "h": 192
+            }
+            ,
+            "sourceSize": {
+                "w": 192, "h": 192
+            }
+        }
+        ,
+        "sword_back3": {
+            "frame": {
+                "x": 384, "y": 0, "w": 192, "h": 192
+            }
+            ,
+            "rotated":false,
+            "trimmed":false,
+            "spriteSourceSize": {
+                "x": 0, "y": 0, "w": 192, "h": 192
+            }
+            ,
+            "sourceSize": {
+                "w": 192, "h": 192
+            }
+        }
+        ,
+        "sword_back4": {
+            "frame": {
+                "x": 576, "y": 0, "w": 192, "h": 192
+            }
+            ,
+            "rotated":false,
+            "trimmed":false,
+            "spriteSourceSize": {
+                "x": 0, "y": 0, "w": 192, "h": 192
+            }
+            ,
+            "sourceSize": {
+                "w": 192, "h": 192
+            }
+        }
+        ,
+        "sword_back5": {
+            "frame": {
+                "x": 768, "y": 0, "w": 192, "h": 192
+            }
+            ,
+            "rotated":false,
+            "trimmed":false,
+            "spriteSourceSize": {
+                "x": 0, "y": 0, "w": 192, "h": 192
+            }
+            ,
+            "sourceSize": {
+                "w": 192, "h": 192
+            }
+        }
+        ,
+        "sword_back6": {
+            "frame": {
+                "x": 960, "y": 0, "w": 192, "h": 192
+            }
+            ,
+            "rotated":false,
+            "trimmed":false,
+            "spriteSourceSize": {
+                "x": 0, "y": 0, "w": 192, "h": 192
+            }
+            ,
+            "sourceSize": {
+                "w": 192, "h": 192
+            }
+        }
+        ,
+        "sword_left1": {
+            "frame": {
+                "x": 0, "y": 192, "w": 192, "h": 192
+            }
+            ,
+            "rotated":false,
+            "trimmed":false,
+            "spriteSourceSize": {
+                "x": 0, "y": 0, "w": 192, "h": 192
+            }
+            ,
+            "sourceSize": {
+                "w": 192, "h": 192
+            }
+        }
+        ,
+        "sword_left2": {
+            "frame": {
+                "x": 192, "y": 192, "w": 192, "h": 192
+            }
+            ,
+            "rotated":false,
+            "trimmed":false,
+            "spriteSourceSize": {
+                "x": 0, "y": 0, "w": 192, "h": 192
+            }
+            ,
+            "sourceSize": {
+                "w": 192, "h": 192
+            }
+        }
+        ,
+        "sword_left3": {
+            "frame": {
+                "x": 384, "y": 192, "w": 192, "h": 192
+            }
+            ,
+            "rotated":false,
+            "trimmed":false,
+            "spriteSourceSize": {
+                "x": 0, "y": 0, "w": 192, "h": 192
+            }
+            ,
+            "sourceSize": {
+                "w": 192, "h": 192
+            }
+        }
+        ,
+        "sword_left4": {
+            "frame": {
+                "x": 576, "y": 192, "w": 192, "h": 192
+            }
+            ,
+            "rotated":false,
+            "trimmed":false,
+            "spriteSourceSize": {
+                "x": 0, "y": 0, "w": 192, "h": 192
+            }
+            ,
+            "sourceSize": {
+                "w": 192, "h": 192
+            }
+        }
+        ,
+        "sword_left5": {
+            "frame": {
+                "x": 768, "y": 192, "w": 192, "h": 192
+            }
+            ,
+            "rotated":false,
+            "trimmed":false,
+            "spriteSourceSize": {
+                "x": 0, "y": 0, "w": 192, "h": 192
+            }
+            ,
+            "sourceSize": {
+                "w": 192, "h": 192
+            }
+        }
+        ,
+        "sword_left6": {
+            "frame": {
+                "x": 960, "y": 192, "w": 192, "h": 192
+            }
+            ,
+            "rotated":false,
+            "trimmed":false,
+            "spriteSourceSize": {
+                "x": 0, "y": 0, "w": 192, "h": 192
+            }
+            ,
+            "sourceSize": {
+                "w": 192, "h": 192
+            }
+        }
+        ,
+        "sword_face1": {
+            "frame": {
+                "x": 0, "y": 384, "w": 192, "h": 192
+            }
+            ,
+            "rotated":false,
+            "trimmed":false,
+            "spriteSourceSize": {
+                "x": 0, "y": 0, "w": 192, "h": 192
+            }
+            ,
+            "sourceSize": {
+                "w": 192, "h": 192
+            }
+        }
+        ,
+        "sword_face2": {
+            "frame": {
+                "x": 192, "y": 384, "w": 192, "h": 192
+            }
+            ,
+            "rotated":false,
+            "trimmed":false,
+            "spriteSourceSize": {
+                "x": 0, "y": 0, "w": 192, "h": 192
+            }
+            ,
+            "sourceSize": {
+                "w": 192, "h": 192
+            }
+        }
+        ,
+        "sword_face3": {
+            "frame": {
+                "x": 384, "y": 384, "w": 192, "h": 192
+            }
+            ,
+            "rotated":false,
+            "trimmed":false,
+            "spriteSourceSize": {
+                "x": 0, "y": 0, "w": 192, "h": 192
+            }
+            ,
+            "sourceSize": {
+                "w": 192, "h": 192
+            }
+        }
+        ,
+        "sword_face4": {
+            "frame": {
+                "x": 576, "y": 384, "w": 192, "h": 192
+            }
+            ,
+            "rotated":false,
+            "trimmed":false,
+            "spriteSourceSize": {
+                "x": 0, "y": 0, "w": 192, "h": 192
+            }
+            ,
+            "sourceSize": {
+                "w": 192, "h": 192
+            }
+        }
+        ,
+        "sword_face5": {
+            "frame": {
+                "x": 768, "y": 384, "w": 192, "h": 192
+            }
+            ,
+            "rotated":false,
+            "trimmed":false,
+            "spriteSourceSize": {
+                "x": 0, "y": 0, "w": 192, "h": 192
+            }
+            ,
+            "sourceSize": {
+                "w": 192, "h": 192
+            }
+        }
+        ,
+        "sword_face6": {
+            "frame": {
+                "x": 960, "y": 384, "w": 192, "h": 192
+            }
+            ,
+            "rotated":false,
+            "trimmed":false,
+            "spriteSourceSize": {
+                "x": 0, "y": 0, "w": 192, "h": 192
+            }
+            ,
+            "sourceSize": {
+                "w": 192, "h": 192
+            }
+        }
+        ,
+        "sword_right1": {
+            "frame": {
+                "x": 0, "y": 576, "w": 192, "h": 192
+            }
+            ,
+            "rotated":false,
+            "trimmed":false,
+            "spriteSourceSize": {
+                "x": 0, "y": 0, "w": 192, "h": 192
+            }
+            ,
+            "sourceSize": {
+                "w": 192, "h": 192
+            }
+        }
+        ,
+        "sword_right2": {
+            "frame": {
+                "x": 192, "y": 576, "w": 192, "h": 192
+            }
+            ,
+            "rotated":false,
+            "trimmed":false,
+            "spriteSourceSize": {
+                "x": 0, "y": 0, "w": 192, "h": 192
+            }
+            ,
+            "sourceSize": {
+                "w": 192, "h": 192
+            }
+        }
+        ,
+        "sword_right3": {
+            "frame": {
+                "x": 384, "y": 576, "w": 192, "h": 192
+            }
+            ,
+            "rotated":false,
+            "trimmed":false,
+            "spriteSourceSize": {
+                "x": 0, "y": 0, "w": 192, "h": 192
+            }
+            ,
+            "sourceSize": {
+                "w": 192, "h": 192
+            }
+        }
+        ,
+        "sword_right4": {
+            "frame": {
+                "x": 576, "y": 576, "w": 192, "h": 192
+            }
+            ,
+            "rotated":false,
+            "trimmed":false,
+            "spriteSourceSize": {
+                "x": 0, "y": 0, "w": 192, "h": 192
+            }
+            ,
+            "sourceSize": {
+                "w": 192, "h": 192
+            }
+        }
+        ,
+        "sword_right5": {
+            "frame": {
+                "x": 768, "y": 576, "w": 192, "h": 192
+            }
+            ,
+            "rotated":false,
+            "trimmed":false,
+            "spriteSourceSize": {
+                "x": 0, "y": 0, "w": 192, "h": 192
+            }
+            ,
+            "sourceSize": {
+                "w": 192, "h": 192
+            }
+        }
+        ,
+        "sword_right6": {
+            "frame": {
+                "x": 960, "y": 576, "w": 192, "h": 192
+            }
+            ,
+            "rotated":false,
+            "trimmed":false,
+            "spriteSourceSize": {
+                "x": 0, "y": 0, "w": 192, "h": 192
+            }
+            ,
+            "sourceSize": {
+                "w": 192, "h": 192
+            }
+        }
+    }
+    ,
+    "meta": {
+        "app":"https://www.leshylabs.com/apps/sstool/",
+        "version":"Leshy SpriteSheet Tool v0.8.4",
+        "image":"spritesheet.png",
+        "size": {
+            "w": 1152, "h": 768
+        }
+        ,
+        "scale":1
+    }
+}
