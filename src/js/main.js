@@ -28,99 +28,71 @@ function preload ()
     this.load.image('tiles', 'assets/map/tiles/terrain_base.png');
     this.load.tilemapTiledJSON('map', 'assets/map/csv/map2.json');
 
-    this.load.atlas("atlas", "assets/character/naked.png", "assets/character/sprites.json");
-
-    // this.load.tilemapCSV("terrain00", 'assets/map/csv/map2_terrain00.csv')
-    // this.load.tilemapCSV("terrain00", 'assets/map/csv/map2_terrain_solid.csv')
+    this.load.atlas("atlas_move", "assets/character/move/BODY_male.png", "assets/character/move/sprites1.json");
 }
 
 function create ()
 {
-
     const map = this.make.tilemap({ key: "map" });
-
     const tileset = map.addTilesetImage("terrain", "tiles");
     const layer0 = map.createStaticLayer("terrain00", tileset, 0, 0);
+    const spawnPoint = map.findObject("Objects", obj => obj.name === "spawn");
+
     solid = map.createStaticLayer("terrain_solid", tileset, 0, 0);
 
 
     solid.setCollisionByProperty({ solid: true });
 
-    const spawnPoint = map.findObject("Objects", obj => obj.name === "spawn");
-
-    player = this.physics.add
-        .sprite(spawnPoint.x, spawnPoint.y, "atlas", "face")
-        .setSize(30, 40)
-        .setOffset(0, 24);
-    console.log(player)
-    //     this.physics.add.collider(player, worldLayer);
-
-
-    ////////////////////////////////////////////////////////
+    player = this.physics.add.sprite(spawnPoint.x, spawnPoint.y, "atlas_move", "face1")
+    this.physics.add.collider(player, solid);
 
 
     const anims = this.anims;
     anims.create({
       key: "face",
-      frames: anims.generateFrameNames("atlas", {
-        prefix: "face.",
+      frames: anims.generateFrameNames("atlas_move", {
+        prefix: "face",
         start: 0,
-        end: 3,
-        zeroPad: 3
+        end: 9,
+      } ),
+      frameRate: 15,
+      repeat: -1
+    });
+    anims.create({
+      key: "left",
+      frames: anims.generateFrameNames("atlas_move", {
+        prefix: "left",
+        start: 0,
+        end: 9,
       }),
       frameRate: 10,
       repeat: -1
     });
     anims.create({
-      key: "misa-right-walk",
-      frames: anims.generateFrameNames("atlas", {
-        prefix: "misa-right-walk.",
+      key: "right",
+      frames: anims.generateFrameNames("atlas_move", {
+        prefix: "right",
         start: 0,
-        end: 3,
-        zeroPad: 3
+        end: 9,
       }),
       frameRate: 10,
       repeat: -1
     });
     anims.create({
-      key: "misa-front-walk",
-      frames: anims.generateFrameNames("atlas", {
-        prefix: "misa-front-walk.",
+      key: "back",
+      frames: anims.generateFrameNames("atlas_move", {
+        prefix: "back",
         start: 0,
-        end: 3,
-        zeroPad: 3
+        end: 9,
       }),
-      frameRate: 10,
-      repeat: -1
-    });
-    anims.create({
-      key: "misa-back-walk",
-      frames: anims.generateFrameNames("atlas", {
-        prefix: "misa-back-walk.",
-        start: 0,
-        end: 3,
-        zeroPad: 3
-      }),
-      frameRate: 10,
+      frameRate: 15,
       repeat: -1
     });
 
-    ////////////////////////////////////////////////////////
 
   const camera = this.cameras.main;
   camera.zoom = 2;
-  // Set up the arrows to control the camera
-  const cursors = this.input.keyboard.createCursorKeys();
-  controls = new Phaser.Cameras.Controls.FixedKeyControl({
-    camera: camera,
-    left: cursors.left,
-    right: cursors.right,
-    up: cursors.up,
-    down: cursors.down,
-    speed: 0.5
-  });
-
-  // Constrain the camera so that it isn't allowed to move outside the width/height of tilemap
+  cursors = this.input.keyboard.createCursorKeys();
   camera.startFollow(player);
   camera.setBounds(0, 0, map.widthInPixels, map.heightInPixels);
 
@@ -130,7 +102,9 @@ function create ()
         tileColor: null,
         collidingTileColor: new Phaser.Display.Color(243, 134, 48, 128), 
         faceColor: new Phaser.Display.Color(40, 39, 37, 255) 
+        
       });
+      debugGraphics.clear();
 
       this.input.keyboard.on('keydown_C', function (event)
       {
@@ -142,10 +116,48 @@ function create ()
 }
 
 function update(time, delta) {
-    // Apply the controls to the camera each update tick of the game
-    controls.update(delta);
-}
+  let speed = 120;
+  const prevVelocity = player.body.velocity.clone();
 
+  // Stop any previous movement from the last frame
+  player.body.setVelocity(0);
+
+  // Horizontal movement
+  if (cursors.left.isDown) {
+    player.body.setVelocityX(-speed);
+  } else if (cursors.right.isDown) {
+    player.body.setVelocityX(speed);
+  }
+
+  // Vertical movement
+  if (cursors.up.isDown) {
+    player.body.setVelocityY(-speed);
+  } else if (cursors.down.isDown) {
+    player.body.setVelocityY(speed);
+  }
+
+  if (cursors.shift.isDown) {
+    speed += 100
+  } else {
+    speed = 120
+  }
+
+  // Normalize and scale the velocity so that player can't move faster along a diagonal
+  player.body.velocity.normalize().scale(speed);
+
+  // Update the animation last and give left/right animations precedence over up/down animations
+  if (cursors.left.isDown) {
+    player.anims.play("left", true);
+  } else if (cursors.right.isDown) {
+    player.anims.play("right", true);
+  } else if (cursors.up.isDown) {
+    player.anims.play("back", true);
+  } else if (cursors.down.isDown) {
+    player.anims.play("face", true);
+  } else {
+    player.anims.stop();
+  }
+}
 
 function drawDebug ()
 {
